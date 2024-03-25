@@ -1,0 +1,60 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.heading1 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.heading2 {
+    font-weight: 500;
+    font-size: 20px;
+    width: 35%;
+    white-space: pre-line;
+}
+
+#img2{
+    transform: scaleY(0.5) scaleX(0.5)
+}
+
+.div_vol{
+    float: left;
+}
+
+.vol_img{
+    width: 200px;
+    border-radius: 100px;
+    transform: scaleX(-1);
+}
+
+#vol{
+    font-size: 20px;
+    margin: 45px;
+}
+
+.div_speed{
+    float: right;
+}
+
+.speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed{
+    font-size: 20px;
+    margin: 55px;
+}
+
+.play_btn{
+    font-size: 30px;
+}
+
+canvas{
+    box-shadow: 1px 1px 38px #000;
+    margin-top: 200px;
+}
